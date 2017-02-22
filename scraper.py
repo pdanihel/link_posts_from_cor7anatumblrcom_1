@@ -21,6 +21,6 @@ def scrape_and_look_for_next_link(url):
         print next_url
         scrape_and_look_for_next_link(next_url)
 
-base_url = 'http://cor7ana.tumblr.com/'
-starting_url = 'http://cor7ana.tumblr.com/'
+base_url = 'http://thecarnetwork.tumblr.com/'
+starting_url = 'http://thecarnetwork.tumblr.com/'
 scrape_and_look_for_next_link(starting_url)
